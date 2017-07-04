@@ -12,4 +12,4 @@ outputs:
   - name: updated-gist
 
 run:
-  path: resource-tutorial/MAHTest/bump-timestamp-file.sh
+  path: resource-tutorial/bump-timestamp-file.sh

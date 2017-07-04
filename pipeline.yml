@@ -3,7 +3,7 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/markharrison17/TestRepo.git
 - name: resource-gist
   type: git
   source:
@@ -18,7 +18,7 @@ jobs:
   - get: resource-tutorial
   - get: resource-gist
   - task: bump-timestamp-file
-    file: resource-tutorial/12_publishing_outputs/bump-timestamp-file.yml
+    file: resource-tutorial/bump-timestamp-file.yml
   - put: resource-gist
     params: {repository: updated-gist}
 
