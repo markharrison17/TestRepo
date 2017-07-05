@@ -1,6 +1,6 @@
 ---
 resources:
-- name: resource-tutorial #testing comments
+- name: resource-tutorial #testing to see if this forces rebuild
   type: git
   source:
     uri: https://github.com/markharrison17/TestRepo.git
