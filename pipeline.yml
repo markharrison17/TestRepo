@@ -1,6 +1,6 @@
 ---
 resources:
-- name: resource-tutorial
+- name: resource-tutorial #testing comments
   type: git
   source:
     uri: https://github.com/markharrison17/TestRepo.git
